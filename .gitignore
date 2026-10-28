@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing and Build
+/coverage
+/.next/
+/out/
+/build
+
+# Private documents, resumes, and PDFs (DO NOT UPLOAD)
+*.pdf
+*.docx
+*.doc
+Profile.pdf
+Randall_LaFrom_CV_Senior_Dental_Business_Advisor.pdf
+
+# Taste skill internal cache and inspect artifacts
+/.taste-skill/
+/.agents/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.token
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
